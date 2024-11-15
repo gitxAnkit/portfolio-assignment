@@ -2,6 +2,8 @@
 
 This is my personal portfolio website, created as part of a web development assignment. It is built using **React** and **Vite**, and it showcases my skills, projects, and contact information.
 
+### [Live link](https://fanciful-semifreddo-56a651.netlify.app/)
+
 ## Features
 
 - **Home Page**: Displays an introduction and a summary of my skills and experience.
