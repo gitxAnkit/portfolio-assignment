@@ -1,8 +1,45 @@
-# React + Vite
+# Portfolio Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, created as part of a web development assignment. It is built using **React** and **Vite**, and it showcases my skills, projects, and contact information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page**: Displays an introduction and a summary of my skills and experience.
+- **Projects Page**: Showcases my portfolio projects with detailed descriptions.
+- **Contact Page**: Includes my contact information with social media links and email.
+- **Responsive Design**: Optimized for both desktop and mobile views.
+
+## Tech Stack
+
+- **React**: JavaScript library for building user interfaces.
+- **Vite**: Next-generation build tool that provides fast development.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **React Icons**: For adding various icons (LinkedIn, GitHub, etc.) to the contact page.
+
+## Setup Instructions
+
+Follow these steps to set up the project locally:
+
+### Pre-requisites
+
+- Make sure you have **Node.js** and **npm** installed.
+
+### Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone git@github.com:gitxAnkit/portfolio-assignment.git
+   ```
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open your browser and go to http://localhost:5173/ to view the portfolio.
