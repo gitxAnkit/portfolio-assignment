@@ -1,15 +1,21 @@
 import React from "react";
 import Header from "./components/Header";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/About";
 import Home from "./components/Home";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
 const App = () => {
   return (
-    <Router>
+    <div className="bg-black text-white px-[10%]">
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </div>
   );
 };
 
